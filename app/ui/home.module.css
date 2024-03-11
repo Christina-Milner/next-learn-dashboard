@@ -1,0 +1,18 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+  /* This does the same triangle as the className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
+  tailwind element.
+  CSS Modules are an alternative to using Tailwind.
+  You would then attach it to the shape in page.tsx like this:
+  import styles from '@/app/ui/home.module.css';
+<div className={styles.shape} />;
+} 
+see app > invoices > status.tsx for an example of conditional formatting
+
+Other altenratives: Sass, CSS-in-JS libraries like styled-jsx, styled-components
+*/
