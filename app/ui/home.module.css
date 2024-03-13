@@ -4,8 +4,8 @@
     border-bottom: 30px solid black;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-  }
-  /* This does the same triangle as the className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
+}
+/* This does the same triangle as the className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
   tailwind element.
   CSS Modules are an alternative to using Tailwind.
   You would then attach it to the shape in page.tsx like this:
