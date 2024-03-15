@@ -6,11 +6,17 @@ import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { fetchInvoicesPages } from '@/app/lib/data';
+import { Metadata } from 'next';
 
 /* 
 Idea: 1) Capture user's input 2) Update URL with search params 3) Keep URL in sync with input field 4) Update table to reflect search query.
 1) happens in app > ui > search.tsx
 */
+
+export const metadata: Metadata = {
+    title: 'Invoices',
+  };
+
 
 export default async function Page({
     searchParams,
